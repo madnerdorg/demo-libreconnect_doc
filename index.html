@@ -1,0 +1,195 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MADNERD.ORG</title>
+    <link rel="stylesheet" href="min.css" type="text/css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+        
+        body {
+            background-color:rgb(0, 0, 0);
+            font-family: 'Roboto', sans-serif;
+            color:rgb(104, 102, 102);
+        }
+        
+        .col {
+            margin:10px;
+            padding:5px;
+            
+        }
+        
+        a {
+            color:greenyellow;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color:green;
+        }
+        
+        a:visited {
+            color:greenyellow;
+        }
+        
+        a:visited:hover {
+            color:green;
+        }
+        
+        h3 {
+            font-weight:normal;
+            font-size:18px;
+            padding:1px;
+            margin:2px;  
+            
+        }
+        
+        h1 {
+            color:greenyellow;
+            
+        }
+        
+        h2 {
+            color:greenyellow; 
+            margin:1px;           
+            font-size:28px;
+            font-weight:normal;
+            padding:1px;
+        }
+        
+        p {
+            font-size:15px;
+        }
+        
+        
+        
+        @media screen and (max-width: 600px) {
+            #image {
+                visibility: hidden;
+                display: none;
+            }
+        }
+
+
+
+        .nav a{
+            color:greenyellow; 
+        }
+        
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        hr {
+            border-top: 1px solid greenyellow;
+        }
+        
+        
+    </style>
+</head>
+<nav class="nav" tabindex="-1" onclick="this.focus()">
+    <div class="container">
+        <a class="pagename current" href="#">MADNERD.ORG</a>
+        <a href="#">Projects</a>
+        <a href="#">Videos</a> 
+        <a href="#">Twitter</a>
+    </div>
+</nav>
+
+
+<div class="container"></div>
+<div class="row">
+    <div class="col c3">
+        <h2><a href="test/index.html">test:42000</a> </h2>
+            <h3>Learn how to connect arduino with the onboard led</h3>
+            <a href="test/index.html"><img src="test/doc/object.jpg"></a>
+            <p>Got an arduino but no components ? You can still control the onboard led and control it on a webpage!
+                This is also a good place to start if you want to learn how to easily convert any arduino code to build your own libre objects.
+            </p>
+            <hr>
+        </div>
+        
+        
+        <div class="col c3">
+            <h2><a href="leds/index.html">leds:42001</a></h2>
+                <h3>Use leds for notifications or decorations</h3>
+                <a href="leds/index.html"><img src="leds/doc/object.jpg"></a>
+                <p>We can use leds to be notify of something (for ex:email) or just as decorative ornements.
+                    This object use 2 or 5 leds from a led strip and can remember specific animation/color thanks 
+                    to the memory of the arduino (eeprom)
+                </p>
+                <hr>
+            
+            </div>
+            
+            <div class="col c3">
+                <h2><a href="radio433/index.html">radio433:42002</a></h2>
+                    <h3>Control cheap home appliances</h3>
+                    <a href="radio43/index.html"><img src="radio433/doc/object.jpg"></a>
+                    <p>Learn how to use a radio receiver/transmitter to control appliances (outlets/bulb) using 433/315Mhz.
+                       You can even make a simple radio network thanks to radiohead protocols.
+                    </p>
+                    <hr>
+            
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col c3">
+                    <h2><a href="openlight/index.html">openlight:42003</a></h2>
+                        <h3>Control milight bulbs using nrf24l01+</h3>
+                        <a href="openlight/index.html"><img src="openlight/doc/object.jpg"></a>
+                        <p>Milight bulbs are cheap radio controlled bulbs, you can use the official WI-FI gateway
+                            to control it but you can also directly control it with an nrf24l01+.
+                            This object can also be used to create a <a href="https://www.mysensors.org/">mysensors</a> serial gateway!
+                        </p>
+                        <hr>
+                
+                    </div>
+                    <div class="col c3">
+                        <h2><a href="temphum/index.html">temphum:42004</a> </h2>
+                            <h3>Use a DHT11 Temperature/Humidity sensor</h3>
+                            <a href="temphum/index.html"><img src="temphum/doc/object.jpg"></a>
+                            <p>This object can get the temperature/humidity of a room. You can also add a photoresistor
+                                to get a rough estimation of the brightness.
+                                You can use it to show live sensor information on a webpage or save it to build graph.
+                                You can also interact with your computer:
+                                The humidity sensor can detect someone blowing on it, The temperature sensor can sense if you hold it, and the light sensor
+
+                            </p>
+                            <hr>
+                       
+                        </div>
+                        <div class="col c3">
+                            <h2><a href="buzzer/index.html">buzzer:42005</a></h2>
+                                <h3>Annoying but fun! Build alarm or play music from DOS game!</h3>
+                                <a href="buzzer/index.html"><img src="buzzer/doc/object.jpg"></a>
+                                <p>This buzzer won't make beautiful sound, but it can be used to generate powerful sound to create an alert and even play monophonic music using standard midi partition!
+                                    If you use multiples buzzers you can even make polyphonic music. 
+
+                                </p>
+                            
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h2>Libre Uploader</h2>
+                    
+                    <h2>LibreConnect</h2>
+                    <h2>Libre Interface</h2>
+                    
+                    
+                    <h2>Public Domain SVG</h2>
+                    <p></p>
+                    <h2>Others Projects</h2>
+                    
+                    </html>
+                    
+                    
+                    <h1>LibreObject</h1>
+                    <p>Libre Object are devices that you can control using USB serial or directly inside your web browser thanks to LibreConnect</p>
+                    <p>You can use it to learn how to use or test electronics components </p>
+                    <a href="">Download Pack</a>
